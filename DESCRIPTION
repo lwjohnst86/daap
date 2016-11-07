@@ -1,9 +1,17 @@
 Package: daap
-Title: What the Package Does (one line, title case)
+Title: Data as a Package
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Luke", "Johnston", email = "lwjohnst@gmail.com", role = c("aut", "cre"))
+Description: Provides functions and processes that make it easier to convert 
+    set up raw data into a package format for easier management, cleaning, 
+    wrangling, and presentation.
 Depends: R (>= 3.3.1)
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+URL: https://github.com/lwjohnst86/daap
+BugReports: https://github.com/lwjohnst86/daap/issues
